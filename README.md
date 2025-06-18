@@ -1,7 +1,5 @@
 📁 README.md
 markdown
-Copy
-Edit
 ```
 # 🧠 LandingAI Image Prediction
 
@@ -20,18 +18,17 @@ This project demonstrates how to use [LandingAI](https://landing.ai/) to perform
 
 Install dependencies using:
 
-```
-pip install landingai Pillow
-Or, if you're using Google Colab, simply run:
 
+pip install landingai Pillow
+```
+Or, if you're using Google Colab, simply run:
+```
 python
-Copy
-Edit
 !pip install landingai
+```
 🖼️ Sample Usage (Google Colab)
+```
 python
-Copy
-Edit
 from PIL import Image
 from landingai.predict import Predictor
 from google.colab import files
@@ -53,14 +50,15 @@ predictions = predictor.predict(image)
 
 # Display predictions
 print(predictions)
+```
 📁 Folder Structure
+```
 bash
-Copy
-Edit
 .
 ├── python.py         # Main script for image prediction
 ├── face.jpeg         # Sample image (add your own)
 └── README.md         # Project description and instructions
+```
 🧠 How It Works
 The Predictor from LandingAI sends your image to the specified endpoint.
 
